@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+    background-color: #f3f2f2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+    font-style: bold;
+  }
+
+.cardInput {
+    color : #333333;
+    /* background-color: #e1f4f3; */
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px rgba(40, 39, 39, 0.15);
+}
+
+.carousel {
+    height : "400px"; width:"400px"; 
+}
+
+.head1{
+    color: rgb(59, 59, 59);
+    align-items: center;
+}
+.head5{
+    font-size: 1.2rem;
+    color: rgb(59, 59, 59);
+    align-items: center;
+}
+
+.cardBox {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+footer {
+    /* display: flex; */
+    /* flex-direction:row; */
+    height: 30px;
+    align-items: center;
+    color: white;
+    background-color: #333333;
+}
+
